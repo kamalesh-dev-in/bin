@@ -10,21 +10,21 @@ Perform a detailed, structured exploration of any codebase component and produce
 
 ## Usage
 
-When the user invokes `/ylt-explore`:
+When the user invokes `/explore`:
 
 **Mode selection:**
-- `/ylt-explore <target>` — **full** mode (default). Complete structured walkthrough with all sections.
-- `/ylt-explore quick <target>` — **quick** mode. Summary only — key files, main flow, no ASCII diagrams.
-- `/ylt-explore screen <screen_name>` — **screen** mode. Frontend screen walkthrough with layout, actions, data flows.
-- `/ylt-explore api <endpoint>` — **api** mode. Backend API deep dive — handler, middleware, DB queries, response shape.
-- `/ylt-explore flow <process>` — **flow** mode. End-to-end data flow tracing — from trigger to persistence.
+- `/explore <target>` — **full** mode (default). Complete structured walkthrough with all sections.
+- `/explore quick <target>` — **quick** mode. Summary only — key files, main flow, no ASCII diagrams.
+- `/explore screen <screen_name>` — **screen** mode. Frontend screen walkthrough with layout, actions, data flows.
+- `/explore api <endpoint>` — **api** mode. Backend API deep dive — handler, middleware, DB queries, response shape.
+- `/explore flow <process>` — **flow** mode. End-to-end data flow tracing — from trigger to persistence.
 
 The target can be:
-- A screen/page: `/ylt-explore screen login`, `/ylt-explore agent list page`
-- An API endpoint: `/ylt-explore api POST /api/agents`, `/ylt-explore GET /api/usage`
-- A process/flow: `/ylt-explore flow message sending`, `/ylt-explore token usage tracking`
-- A module/feature: `/ylt-explore chart system`, `/ylt-explore file explorer`
-- A general area: `/ylt-explore frontend architecture`, `/ylt-explore auth system`
+- A screen/page: `/explore screen login`, `/explore agent list page`
+- An API endpoint: `/explore api POST /api/agents`, `/explore GET /api/usage`
+- A process/flow: `/explore flow message sending`, `/explore token usage tracking`
+- A module/feature: `/explore chart system`, `/explore file explorer`
+- A general area: `/explore frontend architecture`, `/explore auth system`
 
 ## Process
 
